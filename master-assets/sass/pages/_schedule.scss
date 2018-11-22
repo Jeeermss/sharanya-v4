@@ -1,0 +1,233 @@
+@media only screen and (min-width: 320px) {
+  #groupsFees {
+    .show_only_S {
+      display: block;
+      margin: auto;
+      text-align: center;
+
+      img {
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        width: 100%;
+      }
+    }
+
+    .show_only_L {
+      display: none;
+    }
+
+    .show_only_XL {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #groupsFees {
+    .show_only_S {
+      display: none;
+    }
+
+    .show_only_L {
+      display: block;
+      margin: auto;
+      text-align: center;
+
+      img {
+        text-align: center;
+        padding: 3rem 0;
+        width: 100%;
+      }
+    }
+
+    .show_only_XL {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #groupsFees {
+    .show_only_S {
+      display: none;
+    }
+
+    .show_only_L {
+      display: none;
+    }
+
+    .show_only_XL {
+      display: block;
+      margin: auto;
+      text-align: center;
+
+      img {
+        margin: auto;
+        text-align: center;
+        padding: 3rem 0;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+    #groupsFees {
+        .show_only_XL {
+            .groups_fees_text--XL {
+                position: absolute;
+                width: 21rem;
+                padding-top: 10rem;
+                left: 23rem;
+            }
+            
+            .groups_fees_border--XL {
+                padding-top: 15rem;
+            }
+            
+            .adavu_picture--XL {
+                position: relative;
+                width: 10rem;
+                left: -5rem;
+                padding-top: 3rem;
+            }
+            
+            .adavu_description_bg {
+                position: absolute;
+                width: 75rem;
+                left: 52.5rem;
+                padding-top: 18rem;
+            }
+            
+            .adavu_text {
+                position: absolute;
+                width: auto;
+                left: 82rem;
+            }
+            
+            .adavu_border {
+                position: relative;
+                width: auto;
+                top: -13rem;
+                left: 13rem;
+            }
+            
+            .adavu_price {
+                width: auto;
+                position: absolute;
+                padding-top: 11rem;
+                left: 80.5rem;
+            }
+            
+            .groups_fees_adavu_description_text {
+                position: relative;
+                width: auto;
+                top: -44rem;
+                left: 45rem;
+            }
+            
+            .intermediate_groups_picture--XL {
+                position: relative;
+                width: 55rem;
+                left: -74.8rem;
+            }
+            
+            .intermediate_bg_text--XL {
+                position: absolute;
+                width: 81rem;
+                height: 51.9rem;
+                left: 59rem;
+            }
+            
+            .intermediate_text {
+                position: absolute;
+                width: auto;
+                left: 90rem;
+                padding-top: 11rem;
+            }
+            
+            .intermediate_border {
+                position: absolute;
+                width: auto;
+                top: 160rem;
+                left: 80rem;
+            }
+            
+            .intermediate_price {
+                position: absolute;
+                width: auto;
+                left: 92rem;
+                padding-top: 19.5rem;
+            }
+            
+            .intermediate_description_text--XL {
+                position: absolute;
+                width: auto;
+                left: 74rem;
+                padding-top: 25rem;
+            }
+            
+            .advance_picture--XL {
+                position: relative;
+                width: 25rem;
+                left: 48rem;
+                padding-top: 10rem;
+            }
+            
+            .advance_description_bg {
+                position: absolute;
+                width: auto;
+                left: 20rem;
+                padding-top: 23rem;
+            }
+            
+            .advance_border {
+                position: absolute;
+                width: auto;
+                left: 28rem;
+                padding-top: 15rem;
+            }
+            
+            .advance_text {
+                position: absolute;
+                width: auto;
+                left: 45rem;
+                padding-top: 8rem;
+            }
+            
+            .advance_price {
+                position: absolute;
+                width: auto;
+                left: 49rem;
+                padding-top: 17rem;
+            }
+            
+            .advance_description_text--XL {
+                position: absolute;
+                width: auto;
+                left: 23rem;
+                padding-top: 27rem;
+            }
+            
+            .monthly_schedule_text--XL {
+                position: absolute;
+                width: auto;
+                left: 23rem;
+                padding-top: 55rem;
+            }
+            
+            .monthly_schedule_border--XL {
+                padding-top: 0rem;
+            }
+            
+            .monthly_schedule_description_text--XL {
+                position: relative;
+                width: auto;
+                left: -14rem;
+                padding-top: 0rem;
+            }
+        }
+    }
+}
+

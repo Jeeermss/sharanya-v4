@@ -1,0 +1,1716 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.maroon {
+  color: #982649; }
+
+.maroon-bg {
+  background-color: #982649; }
+
+.gold {
+  color: #dcae1d; }
+
+.gold-bg {
+  background-color: #dcae1d; }
+
+.border_color--gold {
+  border: 1px solid #dcae1d;
+  border-radius: 3px; }
+
+.mossgreen {
+  color: #596f62; }
+
+.mossgreen-bg {
+  background-color: #596f62; }
+
+.black {
+  color: #020202; }
+
+.white {
+  color: #FFF; }
+
+.custom-right {
+  text-align: right; }
+
+li.guideline-numbers::before {
+  color: #dcae1d; }
+
+@media only screen and (min-width: 320px) {
+  .header img {
+    width: 100%; }
+  section {
+    border-left: 5px solid #dcae1d;
+    border-right: 5px solid #dcae1d; }
+  .content-main {
+    padding: 0 1rem 2rem 2rem; }
+    .content-main p {
+      width: 100%; }
+  .header-main {
+    width: 100%; }
+    .header-main .header-text {
+      padding-left: 2rem; }
+  .divider {
+    height: 5px; }
+  .divider-thin {
+    height: 3px; } }
+
+@media only screen and (min-width: 768px) {
+  section {
+    border-left: 10px solid #dcae1d;
+    border-right: 10px solid #dcae1d; } }
+
+@media only screen and (min-width: 1200px) {
+  section {
+    border-left: 4rem solid #dcae1d;
+    border-right: 4rem solid #dcae1d; }
+  .header-main {
+    width: 80%;
+    margin-left: auto; }
+    .header-main .header-text {
+      padding-left: 0; }
+  .content-main p {
+    width: 80%;
+    margin-left: auto;
+    padding-right: 10rem; } }
+
+@media only screen and (min-width: 1600px) {
+  section {
+    border-left: 14px solid #dcae1d;
+    border-right: 14px solid #dcae1d; } }
+
+@media only screen and (min-width: 1800px) {
+  section {
+    border-left: 5rem solid #dcae1d;
+    border-right: 5rem solid #dcae1d; } }
+
+*,
+*::before,
+*::after {
+  font-family: 'Dosis', sans-serif; }
+
+.underline {
+  text-decoration: underline; }
+
+.light {
+  font-weight: 400; }
+
+.medium {
+  font-weight: 500; }
+
+.regular {
+  font-weight: 600; }
+
+.semibold {
+  font-weight: 700; }
+
+.bold {
+  font-weight: 700; }
+
+@media only screen and (min-width: 320px) {
+  .header-text {
+    font-size: 1.8rem; }
+  .sub-header {
+    font-size: 1.6rem; }
+  .content-header {
+    font-size: 1.3rem; }
+  li {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    padding: .5rem 1rem; }
+  .alt_sub-header {
+    font-size: 1.3rem; }
+  .alt_content-header {
+    font-size: 1.1rem; }
+  .alt_content-p {
+    font-size: 1.3rem; }
+  .label_header-sub_content {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 375px) {
+  .alt_content-header {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 414px) {
+  .alt_content-header {
+    font-size: 1.5rem; } }
+
+@media only screen and (min-width: 768px) {
+  .header-text {
+    font-size: 1.7rem; }
+  .sub-header {
+    font-size: 1.6rem; }
+  .content-header {
+    font-size: 1.3rem; }
+  .alt_content-header {
+    font-size: 1.7rem; } }
+
+@media only screen and (min-width: 992px) {
+  .header-text {
+    font-size: 1.8rem; }
+  .sub-header {
+    font-size: 1.7rem; }
+  .content-header {
+    font-size: 1.6rem; } }
+
+@media only screen and (min-width: 1024px) {
+  .alt_content-header {
+    font-size: 2rem; } }
+
+@media only screen and (min-width: 1200px) {
+  .header-text {
+    font-size: 3rem; } }
+
+@media only screen and (min-width: 1440px) {
+  .sub-header {
+    font-size: 2rem; }
+  .content-header {
+    font-size: 1.8rem; }
+  .alt_sub-header {
+    font-size: 2rem; }
+  .alt_content-header {
+    font-size: 2.2rem; } }
+
+@media only screen and (min-width: 1920px) {
+  .alt_content-header {
+    font-size: 2.5rem; } }
+
+@media only screen and (min-width: 320px) {
+  .all_buttons {
+    cursor: pointer;
+    position: relative;
+    z-index: 999;
+    background-color: #596f62;
+    color: #FFF;
+    border: 1px solid #596f62;
+    border-radius: 3px;
+    font-size: 1.8rem;
+    padding: .4rem 5rem;
+    text-decoration: none; }
+  .all_buttons::before,
+  .all_buttons::after,
+  .all_buttons:active {
+    box-shadow: -2px 1px 8px #020202;
+    padding: .3rem 4.8rem;
+    color: #FFF;
+    text-decoration: none; }
+  .all_buttons:hover {
+    background-color: transparent;
+    color: #596f62;
+    text-decoration: none;
+    border: 2px solid #596f62;
+    font-weight: 500; }
+  .enroll_button_color--mossgreen {
+    padding-top: 3rem;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    cursor: pointer; } }
+
+@media only screen and (min-width: 1200px) {
+  #class-materials .saturday__button {
+    background-color: #596f62;
+    color: #FFF;
+    border-radius: 3px;
+    padding: 1.2rem 2.5rem;
+    display: block;
+    width: 20%;
+    margin: 2rem auto; } }
+
+@media only screen and (min-width: 320px) {
+  #about-sharanya {
+    position: relative; }
+    #about-sharanya .decor-left .decor {
+      position: absolute;
+      top: 4rem; }
+    #about-sharanya .decor-right .decor {
+      position: absolute;
+      left: 21rem;
+      bottom: -5rem; }
+  #events {
+    position: relative; }
+    #events .enroll_button {
+      cursor: pointer; }
+      #events .enroll_button img {
+        position: absolute;
+        left: 50%;
+        bottom: 82%;
+        transform: translate(-50%, -50%);
+        z-index: -1; }
+    #events .events .events-container .events_leaf_image {
+      width: 90%;
+      position: absolute;
+      top: 2rem;
+      left: 2rem; } }
+
+@media only screen and (min-width: 360px) {
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 24.5rem;
+    bottom: -5rem; }
+  #events .enroll_button img {
+    bottom: 83%; }
+  #events .events-container .events_column .events_leaf_image {
+    width: 60%;
+    left: 8rem; } }
+
+@media only screen and (min-width: 375px) {
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 26rem;
+    bottom: -4rem; }
+  #events .events-container .events-column .events_leaf_image {
+    width: 50%; } }
+
+@media only screen and (min-width: 411px) {
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 30rem;
+    bottom: -4.2rem; }
+  #events .events-container .events_column .events_leaf_image {
+    width: 60%;
+    left: 13rem; } }
+
+@media only screen and (min-width: 480px) {
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 36.5rem;
+    bottom: -5rem; }
+  #events .enroll_button img {
+    bottom: 84%; }
+  #events .events-container .events_column .events_leaf_image {
+    width: 47%;
+    left: 22rem; } }
+
+@media only screen and (min-width: 560px) {
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 44.5rem;
+    bottom: -5rem; }
+  #events .enroll_button img {
+    bottom: 85%; }
+  #events .events-container .events_column .events_leaf_image {
+    width: 38%;
+    left: 31rem; } }
+
+@media only screen and (min-width: 641px) {
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 52.5rem;
+    bottom: -5rem; }
+  #events .enroll_button img {
+    bottom: 86%; }
+  #events .events-container .events_column .events_leaf_image {
+    width: 30%;
+    left: 40rem; } }
+
+@media only screen and (min-width: 768px) {
+  #about-sharanya .decor-left .decor {
+    position: absolute;
+    top: -1rem;
+    left: 2rem;
+    width: 30%; }
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 48.5rem;
+    bottom: -11rem;
+    width: 30%; }
+  #events .enroll_button img {
+    bottom: 87%; }
+  #events .events-container .events_column .events_leaf_image {
+    width: 26%;
+    left: 50rem; } }
+
+@media only screen and (min-width: 992px) {
+  #about-sharanya .decor-left .decor {
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    width: 20%; }
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 72.5rem;
+    bottom: -2rem;
+    width: 20%; }
+  #events .enroll_button img {
+    bottom: 76%; }
+  #events .events-container .events_column .events_leaf_image {
+    width: 40%;
+    left: 66%;
+    top: 26rem;
+    transform: translate(-50%, -50%); } }
+
+@media only screen and (min-width: 1024px) {
+  #about-sharanya .decor-right .decor {
+    left: 75%; } }
+
+@media only screen and (min-width: 1080px) {
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 80rem;
+    bottom: -6rem;
+    width: 20%; }
+  #events .enroll_button img {
+    bottom: 74%; } }
+
+@media only screen and (min-width: 1200px) {
+  #about-sharanya .decor-left .decor {
+    position: absolute;
+    top: 0rem;
+    left: 5rem;
+    width: 18%; }
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 76.5rem;
+    bottom: -1rem;
+    width: 18%; }
+  #events .enroll_button img {
+    bottom: 78%; } }
+
+@media only screen and (min-width: 1280px) {
+  #about-sharanya .decor-right .decor {
+    left: 83.3rem; } }
+
+@media only screen and (min-width: 1280px) and (min-width: 1280px) {
+  #events .events-container .events_column .events_leaf_image {
+    width: 65%; } }
+
+@media only screen and (min-width: 1280px) and (min-width: 1440px) {
+  #about-sharanya .decor-left .decor {
+    position: absolute;
+    top: 0rem;
+    left: 4rem;
+    width: 15%; }
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 89.5rem;
+    bottom: -5rem;
+    width: 15%; }
+  #events .enroll_button img {
+    bottom: 81%; } }
+
+@media only screen and (min-width: 1280px) and (min-width: 1535px) {
+  #about-sharanya .decor-left .decor {
+    top: -1rem;
+    left: 1rem;
+    width: 18%; }
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 78.5rem;
+    bottom: -5rem;
+    width: 18%; }
+  #events .enroll_button img {
+    bottom: 82%; } }
+
+@media only screen and (min-width: 1280px) and (min-width: 1600px) {
+  #about-sharanya .decor-left .decor {
+    position: absolute;
+    top: -3rem;
+    left: 0rem; }
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 86.5rem;
+    bottom: -12rem; }
+  #events .enroll_button img {
+    bottom: 65%;
+    width: 15%; } }
+
+@media only screen and (min-width: 1280px) and (min-width: 1900px) {
+  #about-sharanya .decor-left .decor {
+    top: -5rem;
+    left: 0; }
+  #about-sharanya .decor-right .decor {
+    left: 94.5rem;
+    bottom: -20rem; } }
+
+@media only screen and (min-width: 1280px) and (min-width: 2100px) {
+  #about-sharanya .decor-left .decor {
+    position: absolute;
+    top: 2rem;
+    left: 7rem;
+    width: 8%; }
+  #about-sharanya .decor-right .decor {
+    position: absolute;
+    left: 80.5rem;
+    bottom: 54rem;
+    width: 8%; } }
+
+@media only screen and (min-width: 320px) {
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black; }
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px; }
+  .mySlides {
+    border-radius: 10px; }
+    .mySlides img {
+      width: 100%; }
+  /* The Close Button */
+  .close {
+    color: #dcae1d;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold; }
+  .close:hover,
+  .close:focus {
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer; }
+  /* Hide the slides by default */
+  .mySlides {
+    display: none; }
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #a1a1a1 !important;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none; }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px; }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: #020202;
+    opacity: .8; }
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0; }
+  /* Caption text */
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white; }
+  img.demo {
+    opacity: 0.6; }
+  .active,
+  .demo:hover {
+    opacity: 1; }
+  img.hover-shadow {
+    transition: 0.3s; }
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
+
+@media only screen and (min-width: 320px) {
+  #dance-information .dance__information .header-main {
+    position: relative; }
+    #dance-information .dance__information .header-main .dance__information-sharanya img {
+      position: absolute;
+      bottom: -10.6rem;
+      left: 66%;
+      transform: translate(-50%, -50%); }
+  .dance__information-grid .dance__info-grid .offset-3.dance__info-column {
+    position: relative; }
+    .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+      width: 70%;
+      position: absolute;
+      bottom: 23.5rem;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+  #biography .biography .header-main {
+    position: relative; }
+    #biography .biography .header-main .dance__information-sharanya img {
+      position: absolute;
+      bottom: -10.6rem;
+      left: 66%;
+      transform: translate(-50%, -50%); } }
+
+@media only screen and (min-width: 360px) {
+  .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    bottom: 18rem; } }
+
+@media only screen and (min-width: 375px) {
+  .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    bottom: 17.1rem; } }
+
+@media only screen and (min-width: 411px) {
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    width: 35%;
+    bottom: -13rem; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    bottom: 17.5rem; }
+  #biography .biography .header-main .dance__information-sharanya img {
+    bottom: -13rem;
+    width: 35%; } }
+
+@media only screen and (min-width: 480px) {
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    bottom: -15.5rem; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    bottom: 11rem; }
+  #biography .biography .header-main .dance__information-sharanya img {
+    bottom: -15.5rem; } }
+
+@media only screen and (min-width: 560px) {
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    bottom: -14rem;
+    width: 27%; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    width: 50%;
+    bottom: 14rem; }
+  #biography .biography .header-main .dance__information-sharanya img {
+    bottom: -14rem;
+    width: 27%; } }
+
+@media only screen and (min-width: 641px) {
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    bottom: -16rem; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    bottom: 9.5rem; }
+  #biography .biography .header-main .dance__information-sharanya img {
+    bottom: -16rem; } }
+
+@media only screen and (min-width: 768px) {
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    bottom: -19rem;
+    left: 50%; }
+  #dance-information .dance__information .content-main {
+    padding: 0 1rem 30rem 2rem; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    bottom: 4.3rem; }
+  #biography .biography .header-main .dance__information-sharanya img {
+    bottom: -19rem;
+    left: 50%; } }
+
+@media only screen and (min-width: 992px) {
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    bottom: -23rem;
+    left: 50%;
+    width: 25%; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    width: 37%;
+    bottom: 4.3rem; }
+  #biography .biography .header-main .dance__information-sharanya img {
+    bottom: -23rem;
+    left: 50%;
+    width: 25%; } }
+
+@media only screen and (min-width: 1024px) {
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    bottom: -23.5rem; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    width: 35%;
+    bottom: 4.8rem; }
+  #biography .biography .header-main .dance__information-sharanya img {
+    bottom: -23.5rem; } }
+
+@media only screen and (min-width: 1080px) {
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    width: 25%;
+    bottom: -25rem; } }
+
+@media only screen and (min-width: 1200px) {
+  .people__about-sharanya {
+    position: relative; }
+    .people__about-sharanya img {
+      display: block;
+      width: 20%;
+      position: relative;
+      left: 88rem;
+      bottom: 19rem; }
+  #dance-information .dance__information .header-main {
+    padding-top: 3rem; }
+    #dance-information .dance__information .header-main .dance__information-sharanya img {
+      width: 28%;
+      bottom: -12.5rem;
+      left: 87%; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    width: 181%;
+    left: -62%;
+    bottom: -34.4rem; } }
+
+@media only screen and (min-width: 1280px) {
+  .people__about-sharanya {
+    position: relative; }
+    .people__about-sharanya img {
+      display: block;
+      width: 20%;
+      position: relative;
+      left: 95rem;
+      bottom: 19rem; }
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    bottom: -14.1rem; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    bottom: -40.2rem; } }
+
+@media only screen and (min-width: 1440px) {
+  .people__about-sharanya {
+    position: relative; }
+    .people__about-sharanya img {
+      display: block;
+      width: 17%;
+      position: relative;
+      left: 105rem;
+      bottom: 19rem; }
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    bottom: -17rem; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    bottom: -43rem;
+    width: 173%; } }
+
+@media only screen and (min-width: 1535px) {
+  .people__about-sharanya {
+    position: relative; }
+    .people__about-sharanya img {
+      display: block;
+      width: 17%;
+      position: relative;
+      left: 95rem;
+      bottom: 19rem; }
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    bottom: -19.1rem; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    bottom: -46.2rem;
+    width: 167%; } }
+
+@media only screen and (min-width: 1600px) {
+  .people__about-sharanya {
+    position: relative; }
+    .people__about-sharanya img {
+      display: block;
+      width: 13%;
+      position: relative;
+      left: 117rem;
+      bottom: 19rem; }
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    left: 74%;
+    bottom: -20.1rem; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    bottom: -61.2rem; } }
+
+@media only screen and (min-width: 1900px) {
+  #dance-information .dance__information .header-main .dance__information-sharanya img {
+    bottom: -25.9rem;
+    left: 74%; }
+  #dance-information .dance__information-grid .dance__info-grid .offset-3.dance__info-column .dance__information-adavu-image img {
+    bottom: -73.9rem;
+    width: 165%; } }
+
+@media only screen and (min-width: 320px) {
+  #about-sharanya {
+    position: relative; }
+    #about-sharanya .show_only--S {
+      display: block;
+      position: relative;
+      top: 5rem;
+      z-index: 990;
+      text-align: center;
+      margin: auto; }
+      #about-sharanya .show_only--S img {
+        width: 100%; }
+      #about-sharanya .show_only--S .about_sharanya_text_S {
+        width: 41%;
+        position: absolute;
+        left: 37%;
+        top: 21%;
+        transform: translate(-50%, -50%); }
+    #about-sharanya .show_only--L {
+      display: none; }
+      #about-sharanya .show_only--L img {
+        width: 100%; }
+    #about-sharanya .show_only--XL {
+      display: none;
+      visibility: visible; }
+      #about-sharanya .show_only--XL img {
+        width: 100%; }
+    #about-sharanya .alternative_content--about {
+      position: absolute;
+      top: 45%;
+      z-index: 991; }
+      #about-sharanya .alternative_content--about .alternative_content-p {
+        padding: 0 5.3rem;
+        text-align: left;
+        line-height: 1.6rem; } }
+
+@media only screen and (min-width: 375px) {
+  #about-sharanya .show_only--S .about_sharanya_text_S {
+    top: 19%; }
+  #about-sharanya .alternative_content--about {
+    top: 39%; }
+    #about-sharanya .alternative_content--about .alternative_content-p {
+      padding: 0 6.1rem;
+      line-height: 1.8rem; } }
+
+@media only screen and (min-width: 411px) {
+  #about-sharanya .alternative_content--about {
+    top: 36%; }
+    #about-sharanya .alternative_content--about .alternative_content-p {
+      line-height: 2rem;
+      padding: 1rem 7rem 0; } }
+
+@media only screen and (min-width: 768px) {
+  #about-sharanya .show_only--S {
+    display: none; }
+  #about-sharanya .show_only--L {
+    display: block;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding-top: 15rem; }
+    #about-sharanya .show_only--L .about_sharanya_text_L {
+      width: 37%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 39%;
+      top: 49%; }
+  #about-sharanya .show_only--XL {
+    display: none; }
+  #about-sharanya .alternative_content--about {
+    top: 52%; }
+    #about-sharanya .alternative_content--about .alternative_content-p {
+      padding: 1rem 15.4rem 0; } }
+
+@media only screen and (min-width: 1024px) {
+  #about-sharanya .show_only--S {
+    display: none; }
+  #about-sharanya .show_only--L {
+    display: none; }
+  #about-sharanya .show_only--XL {
+    display: block;
+    position: relative; }
+    #about-sharanya .show_only--XL img {
+      position: relative;
+      top: 7rem;
+      left: 3rem;
+      width: 97%; }
+    #about-sharanya .show_only--XL .about_sharanya_text_XL {
+      width: 30%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 27%;
+      top: 31%; }
+  #about-sharanya .alternative_content--about {
+    top: 45%; }
+    #about-sharanya .alternative_content--about .alternative_content-p {
+      padding: 0 37rem 0 12rem; } }
+
+@media only screen and (min-width: 1280px) {
+  #about-sharanya .show_only--XL .about_sharanya_text_XL {
+    width: 20%;
+    left: 26.5%;
+    top: 26%; }
+  #about-sharanya .alternative_content--about {
+    top: 29%; }
+    #about-sharanya .alternative_content--about .alternative_content-p {
+      line-height: 3rem;
+      padding: 0 40rem 0 20rem; } }
+
+@media only screen and (min-width: 1440px) {
+  #about-sharanya .show_only--XL .about_sharanya_text_XL {
+    left: 22.5%;
+    top: 29%; }
+  #about-sharanya .alternative_content--about {
+    top: 29rem; }
+    #about-sharanya .alternative_content--about .alternative_content-p {
+      line-height: 3rem;
+      position: relative;
+      top: -2rem;
+      padding: 0 50rem 0 17rem; } }
+
+@media only screen and (min-width: 1680px) {
+  #about-sharanya .show_only--XL .about_sharanya_text_XL {
+    left: 21.5%;
+    top: 26%; }
+  #about-sharanya .alternative_content--about {
+    top: 33rem; }
+    #about-sharanya .alternative_content--about .alternative_content-p {
+      padding: 0 62rem 0 44rem; } }
+
+@media only screen and (min-width: 1920px) {
+  #about-sharanya .show_only--XL .about_sharanya_text_XL {
+    top: 23%; }
+  #about-sharanya .alternative_content--about .alternative_content-p {
+    top: 37rem;
+    padding: 0 70rem 0 47rem; } }
+
+@media only screen and (min-width: 320px) {
+  #contact-us .contact_form--button .submit_button--mossgreen {
+    background-color: #596f62;
+    color: #FFF;
+    padding: .5rem 3rem;
+    font-size: 1.7rem;
+    border: none;
+    border-radius: 3px; } }
+
+@media only screen and (min-width: 320px) {
+  .footer {
+    background-color: #982649; }
+    .footer__links ul .footer__links-items {
+      padding: 1.5rem 0 0 2.3rem;
+      text-transform: uppercase; }
+      .footer__links ul .footer__links-items a {
+        color: #FFF;
+        font-size: 1.3rem;
+        font-weight: 500;
+        letter-spacing: 1px; }
+    .footer__links ul .footer__links-items:first-child {
+      padding-top: 4rem; }
+    .footer__links ul .footer__links-items:last-child {
+      padding-bottom: 4rem; }
+    .footer .social-links ul {
+      text-align: center; }
+      .footer .social-links ul .social-links-items {
+        display: inline-grid; }
+        .footer .social-links ul .social-links-items a img {
+          padding: 0 1rem 2rem 1rem;
+          width: 90%; } }
+
+@media only screen and (min-width: 768px) {
+  .footer__links ul {
+    text-align: center; }
+    .footer__links ul .footer__links-items {
+      display: inline-grid;
+      text-align: left; }
+      .footer__links ul .footer__links-items a {
+        font-size: 1.4rem;
+        letter-spacing: 1px; }
+    .footer__links ul .footer__links-item:first-child {
+      margin-bottom: 1rem; } }
+
+@media only screen and (min-width: 992px) {
+  .footer__links ul .footer__links-items {
+    padding: 0 2.4rem; } }
+
+@media only screen and (min-width: 1200px) {
+  .footer__links ul .footer__links-items {
+    padding: 0 3.9rem; } }
+
+@media only screen and (min-width: 1440px) {
+  .footer__links ul .footer__links-items {
+    padding: 0 5.2rem; } }
+
+@media only screen and (min-width: 1535px) {
+  .footer__links ul .footer__links-items {
+    padding: 0 4.9rem; } }
+
+@media only screen and (min-width: 1900px) {
+  .footer .social-links ul .social-links-items a img {
+    width: 100%; } }
+
+@media only screen and (min-width: 2100px) {
+  .footer__links ul .footer__links-items {
+    padding: 0 4.9rem; } }
+
+@media only screen and (min-width: 320px) {
+  .navigation {
+    background-color: #982649; }
+    .navigation__button-gold {
+      background-color: #dcae1d; }
+      .navigation__button-gold .navigation__mobile-icon {
+        font-size: 1.5rem;
+        color: #FFF; }
+    .navigation .navcollapse {
+      padding-top: 1rem; }
+      .navigation .navcollapse .navbar-nav .nav-item {
+        background-color: #dcae1d;
+        margin: 1px 0; }
+        .navigation .navcollapse .navbar-nav .nav-item .nav-link {
+          padding: 1rem 0 .8rem 2rem;
+          font-weight: 600;
+          letter-spacing: 1px;
+          color: #FFF;
+          text-transform: uppercase;
+          font-size: 1.3rem;
+          line-height: 1.6rem;
+          text-align: left; }
+        .navigation .navcollapse .navbar-nav .nav-item .dropdown-toggle::after {
+          color: #982649; }
+        .navigation .navcollapse .navbar-nav .nav-item .dropdown-menu.show {
+          background-color: #dcae1d;
+          border: none; }
+          .navigation .navcollapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item {
+            color: #FFF;
+            padding: .7rem 0 .7rem 2.8rem;
+            font-size: 1.3rem;
+            font-weight: 800;
+            line-height: 1.6rem;
+            text-transform: uppercase; } }
+
+@media only screen and (min-width: 768px) {
+  .navigation {
+    padding: 2rem; }
+    .navigation__button-gold .navigation__mobile-icon {
+      font-size: 2.5rem; } }
+
+@media only screen and (min-width: 992px) {
+  .navigation .navcollapse .navbar-nav {
+    margin: auto;
+    text-align: justify; }
+    .navigation .navcollapse .navbar-nav .dropdown-menu {
+      left: 1rem; }
+    .navigation .navcollapse .navbar-nav .nav-item {
+      background-color: #982649; }
+      .navigation .navcollapse .navbar-nav .nav-item .dropdown-toggle::after {
+        color: #dcae1d; }
+      .navigation .navcollapse .navbar-nav .nav-item .nav-link {
+        padding: 1.1rem 3rem .8rem 3rem; }
+      .navigation .navcollapse .navbar-nav .nav-item .dropdown-menu.show {
+        background-color: #FFF;
+        color: #020202;
+        border: 1px solid #dcae1d;
+        padding: 0;
+        margin: .5rem 0; }
+        .navigation .navcollapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item {
+          color: #020202;
+          padding: .7rem 2.8rem; }
+        .navigation .navcollapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item:hover {
+          background-color: #dcae1d;
+          color: #982649; } }
+
+@media only screen and (min-width: 1200px) {
+  .navigation .navcollapse .navbar-nav .nav-item .nav-link {
+    padding: 1rem 4rem .8rem;
+    font-size: 1.5rem; } }
+
+@media only screen and (min-width: 1440px) {
+  .navigation .navcollapse .navbar-nav .nav-item .nav-link {
+    padding: 1rem 4.5rem .8rem;
+    font-size: 1.6rem; } }
+
+@media only screen and (min-width: 1535px) {
+  .navigation .navcollapse .navbar-nav .nav-item .nav-link {
+    padding: 1.1rem 6rem .8rem;
+    font-size: 1.6rem; } }
+
+@media only screen and (min-width: 1800px) {
+  .navigation .navcollapse .navbar-nav .nav-item .nav-link {
+    padding: 1.1rem 6rem .8rem;
+    font-size: 1.8rem; } }
+
+@media only screen and (min-width: 1900px) {
+  .navigation .navcollapse .navbar-nav .nav-item .nav-link {
+    padding: 1.1rem 6rem .8rem; } }
+
+@media only screen and (min-width: 2100px) {
+  .navigation .navcollapse .navbar-nav .nav-item .nav-link {
+    padding: 1.2rem 7rem; } }
+
+@media only screen and (min-width: 320px) {
+  .animated {
+    /*CSS3 animation properties*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    /*CSS3 transition properties*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS3 transform properties*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important; } }
+
+@media only screen and (min-width: 768px) {
+  #biography .only_show_S {
+    display: none; }
+    #biography .only_show_S img {
+      width: 100%; }
+  #biography .only_show_L {
+    display: block;
+    margin-left: auto; }
+    #biography .only_show_L img {
+      width: 100%; }
+  #biography .only_show_XL {
+    display: none;
+    margin-left: auto; }
+    #biography .only_show_XL img {
+      width: 100%; } }
+
+@media only screen and (min-width: 1024px) {
+  #biography .only_show_S {
+    display: none; }
+    #biography .only_show_S img {
+      width: 100%; }
+  #biography .only_show_L {
+    display: none;
+    margin-left: auto; }
+    #biography .only_show_L img {
+      width: 100%; }
+  #biography .only_show_XL {
+    display: block;
+    margin-left: auto; }
+    #biography .only_show_XL img {
+      width: 100%; } }
+
+@media only screen and (min-width: 1440px) {
+  #about-sharanya .show_only--XL {
+    left: 1rem;
+    top: 7rem; }
+    #about-sharanya .show_only--XL .about_sharanya_text_XL {
+      position: absolute;
+      z-index: 999;
+      top: 18rem;
+      padding-left: 5rem; }
+  #about-sharanya .alternative_content--about .alternative_content-p {
+    left: 5rem;
+    top: 4rem; }
+  #biography .only_show_XL {
+    position: absolute;
+    padding-top: 8rem; }
+    #biography .only_show_XL .biography_text_XL {
+      position: absolute;
+      width: 17rem;
+      top: 3rem;
+      left: 10rem; }
+  #biography .content-main {
+    padding-top: 13rem; }
+    #biography .content-main .sub-header.light {
+      padding-top: 1rem; } }
+
+@media only screen and (min-width: 1200px) {
+  #class-materials .saturday__content-main {
+    text-align: center;
+    padding: 7rem 0; } }
+
+@media only screen and (min-width: 320px) {
+  #accordionExample.accordion .card {
+    padding: 1rem; }
+    #accordionExample.accordion .card #collapseOne.collapse.show .card-body,
+    #accordionExample.accordion .card #collapseTwo.collapse.show .card-body,
+    #accordionExample.accordion .card #collapseThree.collapse.show .card-body {
+      border-left: 1px solid #982649;
+      border-right: 1px solid #982649;
+      border-bottom: 1px solid #982649; }
+    #accordionExample.accordion .card .card-header {
+      background-color: #dcae1d;
+      border: 1px solid #982649; }
+      #accordionExample.accordion .card .card-header h5 button h1 {
+        color: #982649; } }
+
+@media only screen and (min-width: 1281px) {
+  #accordionExample.accordion .card {
+    width: 70%;
+    margin: auto;
+    border: none; } }
+
+@media only screen and (min-width: 320px) {
+  #gallery .header-main {
+    padding: 3rem 0; }
+  #gallery .gallery-grid .gallery {
+    margin: auto; }
+    #gallery .gallery-grid .gallery .gallery_column {
+      text-align: center;
+      padding: 2rem 0; }
+      #gallery .gallery-grid .gallery .gallery_column a {
+        cursor: pointer; } }
+
+@media only screen and (min-width: 1200px) {
+  #gallery .header-main {
+    padding: 10rem 0 0 0; }
+  #gallery .gallery-grid {
+    padding: 6rem 0 3rem 0; }
+    #gallery .gallery-grid .gallery {
+      padding: 3rem 0;
+      margin: auto; }
+      #gallery .gallery-grid .gallery .gallery_column {
+        text-align: center; }
+        #gallery .gallery-grid .gallery .gallery_column .gallery-image {
+          width: 80%; } }
+
+@media only screen and (min-width: 320px) {
+  .animated {
+    /*CSS3 animation properties*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    /*CSS3 transition properties*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS3 transform properties*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important; } }
+
+#about-sharanya .show_only_text--XL {
+  display: none; }
+
+#dance-information {
+  position: relative;
+  padding-top: 6rem; }
+  #dance-information .show_only--S {
+    display: block; }
+    #dance-information .show_only--S img {
+      width: 100%; }
+    #dance-information .show_only--S .dance_info_text_S {
+      width: auto;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 25.6%;
+      top: 17%; }
+  #dance-information .show_only--L {
+    display: none; }
+    #dance-information .show_only--L img {
+      width: 100%; }
+  #dance-information .show_only--XL {
+    display: none; }
+    #dance-information .show_only--XL img {
+      width: 100%; }
+  #dance-information .dance_groups_show_only--S {
+    display: block;
+    text-align: center;
+    position: relative; }
+    #dance-information .dance_groups_show_only--S .adavu_text {
+      position: absolute;
+      z-index: 99;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 19.5%; }
+    #dance-information .dance_groups_show_only--S .intermediate_text {
+      position: absolute;
+      z-index: 99;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 49%; }
+    #dance-information .dance_groups_show_only--S .private_text {
+      position: absolute;
+      z-index: 99;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 79%; }
+    #dance-information .dance_groups_show_only--S .adavu_groups_text--S {
+      position: absolute;
+      top: 30rem;
+      left: 6rem; }
+    #dance-information .dance_groups_show_only--S .intermediate_groups_text--S {
+      position: absolute;
+      top: 66rem;
+      left: 6rem; }
+    #dance-information .dance_groups_show_only--S .private_groups_text--S {
+      position: absolute;
+      top: 103rem;
+      left: 6rem; }
+  #dance-information .dance_groups_show_only--L {
+    display: none;
+    text-align: center; }
+  #dance-information .dance_groups_show_only--XL {
+    display: none;
+    text-align: center; }
+  #dance-information .alternative_content--dance__information .alternative_content--dance__information-p {
+    padding: 4.5rem 2rem 0 1.7rem; }
+  #dance-information .dance_infobox--text {
+    position: relative; }
+    #dance-information .dance_infobox--text .alt_content--adavu_infobox {
+      position: absolute;
+      bottom: 73rem;
+      padding: 0 5.5rem 0 6rem; }
+    #dance-information .dance_infobox--text .alt_content--intermediate_infobox {
+      position: absolute;
+      padding: 0 5.5rem 0 6rem;
+      bottom: 39rem; }
+    #dance-information .dance_infobox--text .alt_content--private_infobox {
+      position: absolute;
+      padding: 0 5.5rem 0 6rem;
+      bottom: 3rem; }
+
+#contact-info .contact__info-wrapper .contact__info {
+  text-align: center;
+  margin-bottom: 0; }
+  #contact-info .contact__info-wrapper .contact__info-item {
+    padding-top: 2rem;
+    list-style: none; }
+  #contact-info .contact__info-wrapper .contact__info-item:last-child {
+    padding-bottom: 2rem; }
+
+#events {
+  background-color: #dcae1d;
+  position: relative;
+  padding-top: 58rem; }
+  #events .events-container {
+    margin: auto;
+    position: absolute;
+    top: -64rem; }
+    #events .events-container .events_column {
+      padding: 2rem .5rem;
+      position: relative; }
+      #events .events-container .events_column .events_image {
+        width: 100%; }
+      #events .events-container .events_column .events_leaf_image {
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+        width: 75%; }
+      #events .events-container .events_column h4, #events .events-container .events_column p {
+        margin: 0;
+        padding-bottom: .5rem; }
+
+@media only screen and (min-width: 375px) {
+  #about-sharanya .show_only_text--XL {
+    display: none; }
+  #dance-information .show_only--S .dance_info_text_S {
+    top: 16%; }
+  .dance_groups_show_only--S .adavu_image {
+    width: 60%; }
+  .dance_groups_show_only--S .adavu_groups_text--S {
+    position: absolute;
+    top: 30rem;
+    left: 9rem; }
+  .dance_groups_show_only--S .intermediate_groups_text--S {
+    position: absolute;
+    top: 65rem;
+    left: 9rem; }
+  .dance_groups_show_only--S .private_groups_text--S {
+    position: absolute;
+    top: 102rem;
+    left: 9rem; } }
+
+#events .events-container .events_column .events_leaf_image {
+  left: 70%;
+  width: 55%; }
+
+@media only screen and (min-width: 411px) {
+  #dance-information .dance_groups_show_only--S .adavu_image {
+    width: 60%; }
+  #dance-information .dance_infobox--text .alt_content--adavu_infobox {
+    bottom: 80rem;
+    padding: 0 10rem; }
+  #dance-information .dance_infobox--text .alt_content--intermediate_infobox {
+    padding: 0 10rem;
+    bottom: 42rem; }
+  #dance-information .dance_infobox--text .alt_content--private_infobox {
+    padding: 0 10rem; }
+  #events .events-container .events_column .events_leaf_image {
+    left: 67%;
+    width: 55%; } }
+
+@media only screen and (min-width: 768px) {
+  #dance-information .show_only--S {
+    display: none; }
+  #dance-information .alternative_content--dance__information .alternative_content--dance__information-p {
+    padding: 0.5rem 2rem 0 4.2rem; }
+  #dance-information .dance_groups_show_only--S {
+    display: none; }
+  #dance-information .dance_groups_show_only--L {
+    display: block;
+    text-align: center;
+    position: relative; }
+    #dance-information .dance_groups_show_only--L .adavu_text {
+      position: absolute;
+      z-index: 99;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 29rem; }
+    #dance-information .dance_groups_show_only--L .intermediate_text {
+      position: absolute;
+      z-index: 99;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 52rem; }
+    #dance-information .dance_groups_show_only--L .private_text {
+      position: absolute;
+      z-index: 99;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 75rem; }
+  #dance-information .dance_groups_show_only--XL {
+    display: none; }
+  #dance-information .dance_infobox--text .alt_content--adavu_infobox {
+    bottom: 46rem;
+    padding: 0 14rem; }
+  #dance-information .dance_infobox--text .alt_content--intermediate_infobox {
+    padding: 0 14rem;
+    bottom: 26rem; }
+  #dance-information .dance_infobox--text .alt_content--private_infobox {
+    padding: 0 14rem;
+    bottom: 2rem; }
+  #contact-info .contact__info-wrapper .contact__info-item {
+    display: inline-grid;
+    padding: 2rem; } }
+
+@media only screen and (min-width: 1024px) {
+  #dance-information .show_only--S {
+    display: none; }
+  #dance-information .show_only--L {
+    display: none; }
+  #dance-information .dance_groups_show_only--S {
+    display: none; }
+  #dance-information .dance_groups_show_only--L {
+    display: none; }
+  #dance-information .dance_groups_show_only--XL {
+    display: block;
+    position: relative; }
+    #dance-information .dance_groups_show_only--XL .adavu_image {
+      z-index: 998;
+      width: 100%;
+      position: absolute;
+      bottom: -42.7rem;
+      left: 0; }
+    #dance-information .dance_groups_show_only--XL .adavu_text {
+      position: absolute;
+      top: 4rem;
+      left: 40rem;
+      z-index: 999;
+      width: 57%; }
+  #dance-information .alternative_content--dance__information {
+    position: relative; }
+    #dance-information .alternative_content--dance__information .alternative_content--dance__information-p {
+      position: absolute;
+      top: 5rem;
+      left: 25rem; }
+  #dance-information .dance_infobox--text .alt_content--adavu_infobox {
+    bottom: -29rem;
+    padding: 0 45rem;
+    z-index: 999;
+    left: -8rem;
+    line-height: 1.6rem; }
+  #dance-information .dance_infobox--text .alt_content--intermediate_infobox {
+    bottom: -28rem;
+    padding: 0 24rem;
+    z-index: 999;
+    left: 35rem;
+    line-height: 1.6rem; }
+  #dance-information .dance_infobox--text .alt_content--private_infobox {
+    bottom: -29rem;
+    padding: 0 3rem;
+    z-index: 999;
+    left: 78rem;
+    line-height: 1.6rem; } }
+
+@media only screen and (min-width: 1200px) {
+  #contact-info .contact__info-wrapper .contact__info-item {
+    padding: 2rem 9rem; }
+  #events {
+    background-color: #dcae1d; }
+    #events .events .events-container {
+      margin: auto; }
+      #events .events .events-container .events_column h4:last-child {
+        padding-top: 5rem; }
+      #events .events .events-container .events_column .events_image {
+        width: 100%; } }
+
+@media only screen and (min-width: 1280px) {
+  #dance-information .dance_groups_show_only--XL .adavu_image {
+    bottom: -39rem; }
+  #dance-information .dance_groups_show_only--XL .adavu_text {
+    top: -8rem;
+    left: 51rem; }
+  #dance-information .dance_infobox--text .alt_content--adavu_infobox {
+    bottom: -20rem;
+    padding: 0 57rem 0 44rem;
+    z-index: 999;
+    left: 2rem;
+    line-height: 2.5rem; }
+  #dance-information .dance_infobox--text .alt_content--intermediate_infobox {
+    bottom: -18rem;
+    line-height: 2.5rem;
+    left: 26rem;
+    padding: 0 30rem 0 48rem;
+    z-index: 999; }
+  #dance-information .dance_infobox--text .alt_content--private_infobox {
+    line-height: 2.5rem;
+    z-index: 999;
+    bottom: -18rem;
+    left: 97rem;
+    padding: 0 3rem; }
+  #events {
+    padding-top: 18rem; } }
+
+@media only screen and (min-width: 1440px) {
+  #dance-information .dance_groups_show_only--XL .adavu_image {
+    bottom: -68.5rem; }
+  #dance-information .dance_groups_show_only--XL .dance_information_header {
+    position: absolute;
+    z-index: 999;
+    top: -2rem;
+    left: 40rem; }
+  #dance-information .dance_groups_show_only--XL .adavu_text {
+    width: 13rem;
+    height: 33rem;
+    top: 1.5rem;
+    left: 55rem; }
+  #dance-information .dance_groups_show_only--XL .intermediate_text {
+    position: absolute;
+    z-index: 999;
+    top: 15rem;
+    left: 80.9rem; }
+  #dance-information .dance_groups_show_only--XL .private_text {
+    position: absolute;
+    z-index: 999;
+    top: 15rem;
+    left: 108rem; }
+  #dance-information .dance_groups_show_only--XL .adavu_groups_text {
+    position: absolute;
+    z-index: 999;
+    top: 24.5rem;
+    left: 49rem; }
+  #dance-information .dance_groups_show_only--XL .intermediate_groups_text {
+    position: absolute;
+    z-index: 999;
+    top: 24.5rem;
+    left: 79rem; }
+  #dance-information .dance_groups_show_only--XL .private_groups_text {
+    position: absolute;
+    z-index: 999;
+    top: 24.5rem;
+    left: 108rem; }
+  #dance-information .alternative_content--dance__information {
+    position: relative;
+    z-index: 999;
+    top: -1rem;
+    left: 11rem; } }
+
+/* #events {
+        position: relative;
+        padding-top: 120rem;
+    } */
+.events-container {
+  padding-top: 62rem; }
+
+#contact-info {
+  display: block; }
+
+#about-sharanya .show_only_text--XL .phone_text_XL {
+  position: absolute;
+  z-index: 999;
+  top: 73rem;
+  left: 10rem; }
+
+#about-sharanya .show_only_text--XL .location_text_XL {
+  position: absolute;
+  z-index: 999;
+  top: 73rem;
+  left: 28rem; }
+
+#about-sharanya .show_only_text--XL .email_address_text_XL {
+  position: absolute;
+  z-index: 999;
+  top: 73rem;
+  left: 81rem; }
+
+#about-sharanya .show_only_text--XL .about_sharanya_text_XL {
+  top: 20rem; }
+
+@media only screen and (min-width: 1680px) {
+  #dance-information .dance_groups_show_only--XL .adavu_text {
+    top: -18rem;
+    left: 67rem; }
+  #dance-information .dance_infobox--text .alt_content--adavu_infobox {
+    line-height: 2.3rem;
+    bottom: -17rem;
+    padding: 0 74rem 0 58rem; }
+  #dance-information .dance_infobox--text .alt_content--intermediate_infobox {
+    line-height: 2.3rem;
+    padding: 0 41rem 0 70rem;
+    letter-spacing: 1px;
+    bottom: -19rem;
+    left: 26rem; }
+  #dance-information .dance_infobox--text .alt_content--private_infobox {
+    line-height: 2.3rem;
+    padding: 0 5rem 0 23rem;
+    bottom: -19rem; }
+  #events {
+    padding: 27rem 14rem 8rem; }
+  #row container-fluid events-container {
+    padding-top: 20rem; } }
+
+@media only screen and (min-width: 1900px) {
+  #events {
+    padding: 11rem 14rem 8rem; } }
+
+@media only screen and (min-width: 320px) {
+  #groupsFees .show_only_S {
+    display: block;
+    margin: auto;
+    text-align: center; }
+    #groupsFees .show_only_S img {
+      text-align: center;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      width: 100%; }
+  #groupsFees .show_only_L {
+    display: none; }
+  #groupsFees .show_only_XL {
+    display: none; } }
+
+@media only screen and (min-width: 768px) {
+  #groupsFees .show_only_S {
+    display: none; }
+  #groupsFees .show_only_L {
+    display: block;
+    margin: auto;
+    text-align: center; }
+    #groupsFees .show_only_L img {
+      text-align: center;
+      padding: 3rem 0;
+      width: 100%; }
+  #groupsFees .show_only_XL {
+    display: none; } }
+
+@media only screen and (min-width: 1024px) {
+  #groupsFees .show_only_S {
+    display: none; }
+  #groupsFees .show_only_L {
+    display: none; }
+  #groupsFees .show_only_XL {
+    display: block;
+    margin: auto;
+    text-align: center; }
+    #groupsFees .show_only_XL img {
+      margin: auto;
+      text-align: center;
+      padding: 3rem 0;
+      width: 100%; } }
+
+@media only screen and (min-width: 1440px) {
+  #groupsFees .show_only_XL .groups_fees_text--XL {
+    position: absolute;
+    width: 21rem;
+    padding-top: 10rem;
+    left: 23rem; }
+  #groupsFees .show_only_XL .groups_fees_border--XL {
+    padding-top: 15rem; }
+  #groupsFees .show_only_XL .adavu_picture--XL {
+    position: relative;
+    width: 10rem;
+    left: -5rem;
+    padding-top: 3rem; }
+  #groupsFees .show_only_XL .adavu_description_bg {
+    position: absolute;
+    width: 75rem;
+    left: 52.5rem;
+    padding-top: 18rem; }
+  #groupsFees .show_only_XL .adavu_text {
+    position: absolute;
+    width: auto;
+    left: 82rem; }
+  #groupsFees .show_only_XL .adavu_border {
+    position: relative;
+    width: auto;
+    top: -13rem;
+    left: 13rem; }
+  #groupsFees .show_only_XL .adavu_price {
+    width: auto;
+    position: absolute;
+    padding-top: 11rem;
+    left: 80.5rem; }
+  #groupsFees .show_only_XL .groups_fees_adavu_description_text {
+    position: relative;
+    width: auto;
+    top: -44rem;
+    left: 45rem; }
+  #groupsFees .show_only_XL .intermediate_groups_picture--XL {
+    position: relative;
+    width: 55rem;
+    left: -74.8rem; }
+  #groupsFees .show_only_XL .intermediate_bg_text--XL {
+    position: absolute;
+    width: 81rem;
+    height: 51.9rem;
+    left: 59rem; }
+  #groupsFees .show_only_XL .intermediate_text {
+    position: absolute;
+    width: auto;
+    left: 90rem;
+    padding-top: 11rem; }
+  #groupsFees .show_only_XL .intermediate_border {
+    position: absolute;
+    width: auto;
+    top: 160rem;
+    left: 80rem; }
+  #groupsFees .show_only_XL .intermediate_price {
+    position: absolute;
+    width: auto;
+    left: 92rem;
+    padding-top: 19.5rem; }
+  #groupsFees .show_only_XL .intermediate_description_text--XL {
+    position: absolute;
+    width: auto;
+    left: 74rem;
+    padding-top: 25rem; }
+  #groupsFees .show_only_XL .advance_picture--XL {
+    position: relative;
+    width: 25rem;
+    left: 48rem;
+    padding-top: 10rem; }
+  #groupsFees .show_only_XL .advance_description_bg {
+    position: absolute;
+    width: auto;
+    left: 20rem;
+    padding-top: 23rem; }
+  #groupsFees .show_only_XL .advance_border {
+    position: absolute;
+    width: auto;
+    left: 28rem;
+    padding-top: 15rem; }
+  #groupsFees .show_only_XL .advance_text {
+    position: absolute;
+    width: auto;
+    left: 45rem;
+    padding-top: 8rem; }
+  #groupsFees .show_only_XL .advance_price {
+    position: absolute;
+    width: auto;
+    left: 49rem;
+    padding-top: 17rem; }
+  #groupsFees .show_only_XL .advance_description_text--XL {
+    position: absolute;
+    width: auto;
+    left: 23rem;
+    padding-top: 27rem; }
+  #groupsFees .show_only_XL .monthly_schedule_text--XL {
+    position: absolute;
+    width: auto;
+    left: 23rem;
+    padding-top: 55rem; }
+  #groupsFees .show_only_XL .monthly_schedule_border--XL {
+    padding-top: 0rem; }
+  #groupsFees .show_only_XL .monthly_schedule_description_text--XL {
+    position: relative;
+    width: auto;
+    left: -14rem;
+    padding-top: 0rem; } }
