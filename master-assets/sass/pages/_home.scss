@@ -698,7 +698,9 @@
 .info-box-holders {
     border: 1px solid gold;
     border-radius: 10px;
-    box-shadow: -2px 4px 8px rgba(0,0,0,.2);
+    box-shadow: -2px 4px 8px rgba(0,0,0,.2);    position: relative;
+    left: 22px;
+    z-index: -2;
 }
 
 .info-box .info-box-inner {
