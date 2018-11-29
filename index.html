@@ -112,28 +112,83 @@
     </div>
   </section>
  -->
+
+ 
+<style>
+
+  h1{
+    font-weight: bold;
+    font-size: 28pt;
+    color: rgb(152,38,73);
+  }
+.text-p{
+  font-size: 16pt;
+  max-width: 540px;
+  margin-left: 200px;
+}
+@media screen and (max-width: 1200px) {
+  .text-p {
+    margin-left:0px;
+}
+}
+ 
+@media screen and (max-width: 767px) {
+  .figure-1-placement img {
+    margin-top: 0px!important;
+    margin-left: 0px!important;
+}
+.motive-section::after {
+ 
+    right: -74%!important;
+}
+}
+
+
+.motive-section::before{
+  content:url('master-assets/img/alternative/left-motive.png'); /* with class ModalCarrot ??*/
+  position: relative;
+    z-index: 100000;
+    left: -150px;
+    top: 160px;
+}
+.motive-section::after{
+  content:url('master-assets/img/alternative/right-motive.png'); /* with class ModalCarrot ??*/
+   position: relative;
+   z-index: 100000;
+ 
+  top: -170px;
+  right: -90%;
+}
+.figure-1-placement img{
+  width: 100%;
+    margin-top: 340px;
+    
+    margin-left: 100px;
+}
+</style>
+
+
     
 <section id="about-sharanya" class="section-container">
-    <div class="row">
-            <div class="col-lg-2 mt-5 ml-5">
-                <div class="image-holder left decors">
-                    <img src="master-assets/img/alternative/side_decor_left_XL.jpg">
-                </div>
-            </div>
-        </div>
+     
     <div class="container">
+      <div class="row">
+        <div class="offset-lg-1 col-md-7 col-lg-7  motive-section">
         <h1>About Sharanya</h1>
-            <p> Sharanya offers dance lessons to build a foundation in the Indian classical Bharantanatyam dance style Choreographed pieces encourage students to blend traditional movements with classical music a great motivation for today's youth.<br>
-            Classes focus on training all ages to blend rhythm, beats and expressions with artful foot, hand, and body movements-essential to all dance styles.</p>
-    </div>
-         <div class="row">
-            <div class="col-md-2 mt-5 ml-5">
-                <div class="image-holder right decors">
-                    <img src="master-assets/img/alternative/side_decor_right_XL.jpg">
-                </div>
-            </div>
+        <p class="text-p"> Sharanya offers dance lessons to build a foundation in the Indian classical Bharantanatyam dance style Choreographed pieces encourage students to blend traditional movements with classical music a great motivation for today's youth.<br>
+            Classes focus on training all ages to blend rhythm, beats and expressions with artful foot, hand, and body movements-essential to all dance styles.
+        </p>
+      </div>
+      <div class="col-md-5 col-lg-4">
+        <div class="figure-1-placement">
+            <img src="master-assets/img/alternative/figure-1.png"/>
         </div>
-    </section>
+      </div>
+
+      </div>
+    </div>
+          
+</section>
     
 
   <section id="dance-information" class="section-container">
@@ -182,7 +237,7 @@
       
     
 
-<section class="new-mobile-boxes-section  ">
+<!--section class="new-mobile-boxes-section  ">
 
 <div class='container-fluid'>
 <div class='row'>
@@ -243,7 +298,7 @@
 
 
 </div>
-</div></div></section>
+</div></div></section-->
       
       
       
@@ -444,3 +499,4 @@
 </body>
 
 </html>
+

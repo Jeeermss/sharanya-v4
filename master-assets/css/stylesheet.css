@@ -71,8 +71,7 @@ li.guideline-numbers::before {
 
 @media only screen and (min-width: 1200px) {
   section {
-    border-left: 4rem solid #dcae1d;
-    border-right: 4rem solid #dcae1d; }
+     }
   .header-main {
     width: 80%;
     margin-left: auto; }
