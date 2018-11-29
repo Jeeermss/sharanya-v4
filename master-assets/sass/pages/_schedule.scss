@@ -248,9 +248,10 @@
     padding: 20px;
     border: 2px solid gold;
     color: #fff;
-    min-height: 100px;
+    min-height: 240px;
     box-sizing: border-box;
     height: auto;
+    font-size: 14pt;
 }
 
 
@@ -268,7 +269,12 @@
     padding: 15px 0;
     text-align: center;
 }
-
+.info-box-line h5{
+    font-size: 24px;
+  }
+  .info-box-line p{
+    font-size: 24px; color: #596f62;
+  }
 .image-holder {
     position: relative;
 }

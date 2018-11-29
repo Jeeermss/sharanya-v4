@@ -1561,9 +1561,11 @@ li.guideline-numbers::before {
   padding: 20px;
   border: 2px solid gold;
   color: #fff;
-  min-height: 100px;
+  min-height: 240px;
   box-sizing: border-box;
-  height: 200px; }
+  height: 200px;
+font-size: 14pt;
+}
 
 .info-box .info-box-inner:before {
   /* content: ""; */
@@ -1577,6 +1579,13 @@ li.guideline-numbers::before {
   border-top: 1px solid #9e2929;
   padding: 15px 0;
   text-align: center; }
+.info-box-line h5{
+  font-size: 24px; color: #596f62;
+}
+.info-box-line p{
+  font-size: 24px;
+}
+
 
 .image-holder {
   position: relative; }
@@ -1586,17 +1595,18 @@ li.guideline-numbers::before {
 
 .image-holder.dance-info-lady img {
   position: absolute;
-  left: -104px;
-  top: -26px; }
+  top: 72px;
+  z-index: 10;
+  left: -23px; }
 
 .dance-info-lady {
   position: absolute;
-  top: 60px;
+  top:110px;
   z-index: 10;
-  left: -320px; }
+  left: -60px; }
 
 .dance-info-lady img {
-  width: 564px; }
+  width: 411px; }
 
 #events .events-container {
   top: 0px !important;
@@ -1829,7 +1839,7 @@ li.guideline-numbers::before {
   padding: 20px;
   border: 2px solid gold;
   color: #fff;
-  min-height: 100px;
+  min-height: 240px;
   box-sizing: border-box;
   height: auto; }
 
@@ -1908,3 +1918,13 @@ li.guideline-numbers::before {
     top: 0; }
   .info-box .info-box-inner {
     height: auto; } }
+
+
+    @media screen and (max-width: 991px) {
+
+      .dance-info-lady   {
+        position: relative;
+        left: 0;
+        top: 0; }
+
+    }
