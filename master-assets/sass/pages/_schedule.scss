@@ -231,3 +231,127 @@
     }
 }
 
+/*** Extra Styles ***/
+
+.section-container {
+    position: relative
+}
+
+.info-box-holders.no-border {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none
+}
+
+.info-box .info-box-inner {
+    background-color: #9e2929;
+    padding: 20px;
+    border: 2px solid gold;
+    color: #fff;
+    min-height: 100px;
+    box-sizing: border-box;
+    height: auto;
+}
+
+
+.info-box .info-box-inner:before {
+    /* content: ""; */
+    border-top: 1px solid #9e2929;
+    width: 100%;
+    padding-bottom: 20px;
+    display: block;
+    position: relative;
+}
+
+.info-box-line {
+    border-top: 1px solid #9e2929;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.image-holder {
+    position: relative;
+}
+
+.image-holder img {
+    max-width: 100%;
+}
+
+.image-holder.dance-info-lady img {
+    position: relative;
+    left: 0px;
+    top: 0;
+}
+
+#events .events-container {
+    top: 0px !important;
+    position: relative !important;
+}
+
+
+.events-container {
+    padding-top: 0px
+}
+
+.schedule-info-top {
+    border-bottom:1px solid gold
+}
+
+.image-block img {max-width: 100%}
+
+.intermediate-dancers {
+    background-image: url(/master-assets/img/alternative/intermediate_groups_picture_XL.jpg);
+    padding-bottom: 35%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.intermediate-dancers:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    top: 0%;
+    left: 0%;
+    position: absolute;
+}
+
+.gold-block {
+    background-color: gold
+}
+
+.gold-block .info-box {
+    padding: 80px;
+    text-align: center;
+}
+
+@media screen and (max-width: 812px) {
+    
+    .intermediate-dancers {
+        background-size: 100%
+    }    
+    
+    .info-box-holders {
+        border: none;
+        box-shadow: none;
+    }
+    
+    .image-holder {
+        position: relative;
+    }
+    
+    .image-holder img {
+        max-width: 100%
+    }
+     
+    .image-holder.dance-info-lady img {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    
+    .info-box .info-box-inner {
+        height: auto
+    }
+    
+}

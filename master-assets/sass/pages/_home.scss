@@ -695,17 +695,22 @@
     position: relative
 }
 
-
+.info-box-holders {
+    border: 1px solid gold;
+    border-radius: 10px;
+    box-shadow: -2px 4px 8px rgba(0,0,0,.2);
+}
 
 .info-box .info-box-inner {
     background-color: #9e2929;
     padding: 20px;
+    border: 2px solid gold;
     color: #fff;
     min-height: 100px;
+    box-sizing: border-box;
+    height: 200px;
 }
 
-.info-box {
-}
 
 .info-box .info-box-inner:before {
     /* content: ""; */
@@ -718,5 +723,131 @@
 
 .info-box-line {
     border-top: 1px solid #9e2929;
-    margin-bottom: 20px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.image-holder {
+    position: relative;
+}
+
+.image-holder img {
+    max-width: 200%;
+}
+
+.image-holder.dance-info-lady img {
+    position: absolute;
+    left: -104px;
+    top: -26px;
+}
+.dance-info-lady{
+   
+    position: absolute;
+    top: 60px;
+    z-index: 10;
+    left: -320px;
+}
+.dance-info-lady img{
+ width: 564px;   
+}
+#events .events-container {
+    top: 0px !important;
+    position: relative !important;
+}
+
+
+.events-container {
+    padding-top: 0px
+}
+
+.dropdown-menu {
+    width: 92% !important;
+    text-align: center !important;
+}
+
+.image-holder.left.decors {
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+}
+
+.image-holder.right.decors {
+    position: relative;
+    top: -14rem;
+    left: 75rem;
+}
+
+@media screen and (max-width: 812px) {
+    
+    .info-box-holders {
+        border: none;
+        box-shadow: none;
+    }
+    
+    .image-holder {
+        position: relative;
+    }
+    
+    .image-holder img {
+        max-width: 100%
+    }
+     
+    .image-holder.dance-info-lady img {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    
+    .info-box .info-box-inner {
+        height: auto
+    }
+    
+   
+}
+@media screen and (max-width: 991px) {
+    
+     .new-mobile-boxes-section{
+     //display: block;   
+    }
+    #dance-information{
+     //   display: none;
+    }
+}
+
+
+
+
+#dance-information{
+    display: block;
+}
+
+.new-mobile-boxes-section{
+    display: none;
+    }
+
+
+.line-a{
+  background-color: #2b4646;
+  height: 6px;
+}
+ .pink-line{
+
+  height: 2px;
+  background-color: #ca3953;
+ }
+
+.middle-part{
+
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.pink-box{
+  background-color: #901a1a;
+    border: 2px;
+    border-color: #ff9d00;
+    color: white;
+    padding: 25px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 90px;
 }
